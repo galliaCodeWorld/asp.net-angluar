@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MultiPlatformChat.RestData</id>
+    <version>1.0.2</version>
+    <title>MultiPlatformChat.RestData</title>
+    <authors>MultiPlatformChat</authors>
+    <owners>MultiPlatformChat</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>RestService uses RestData, RestService is a Facade to decouple RestData from Application.</description>
+    <copyright>Copyright ©  2017</copyright>
+    <dependencies>
+      <group targetFramework=".NETPortable4.6-Profile151">
+        <dependency id="AutoMapper" version="5.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="MultiPlatformChat.Business" version="1.0.6" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="9.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Net.Http" version="4.3.1" exclude="Build,Analyzers" />
+        <dependency id="WebApi.DTOs" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

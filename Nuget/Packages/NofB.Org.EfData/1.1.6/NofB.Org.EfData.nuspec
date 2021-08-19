@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>NofB.Org.EfData</id>
+    <version>1.1.6</version>
+    <title>NofB.Org.EfData</title>
+    <authors>MultiPlatformChat</authors>
+    <owners>MultiPlatformChat</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Data access layer for Web Api Server</description>
+    <releaseNotes>Data Access Layer for Web Api</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <dependencies>
+      <dependency id="AutoMapper" version="6.0.2" />
+      <dependency id="LinqKit" version="1.1.9" />
+      <dependency id="Newtonsoft.Json" version="10.0.2" />
+      <dependency id="NofB.Org.Validation" version="1.0.3" />
+      <dependency id="NofB.Org.WebApi.Business" version="1.0.9" />
+      <dependency id="System.Linq.Dynamic" version="1.0.7" />
+    </dependencies>
+  </metadata>
+</package>

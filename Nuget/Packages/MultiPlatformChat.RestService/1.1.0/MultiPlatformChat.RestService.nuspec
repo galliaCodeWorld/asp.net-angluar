@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MultiPlatformChat.RestService</id>
+    <version>1.1.0</version>
+    <title>MultiPlatformChat.RestService</title>
+    <authors>MultiPlatformChat</authors>
+    <owners>MultiPlatformChat</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Facade: has all the services for an application</description>
+    <copyright>Copyright ©  2017</copyright>
+    <dependencies>
+      <group targetFramework=".NETPortable4.5-Profile111">
+        <dependency id="MultiPlatformChat.Business" version="1.1.9" exclude="Build,Analyzers" />
+        <dependency id="MultiPlatformChat.RestData" version="1.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

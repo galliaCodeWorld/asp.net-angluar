@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MultiPlatformChat.Core</id>
+    <version>1.0.1</version>
+    <title>MultiPlatformChat.Core</title>
+    <authors>MultiPlatformChat</authors>
+    <owners>MultiPlatformChat</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Core package containing ViewModels for MVVMCross UI projects</description>
+    <copyright>Copyright ©  2017</copyright>
+    <dependencies>
+      <group targetFramework=".NETPortable4.6-Profile151">
+        <dependency id="MultiPlatformChat.Business" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="MultiPlatformChat.RestService" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MvvmCross.Core" version="4.4.0" exclude="Build,Analyzers" />
+        <dependency id="MvvmCross.Platform" version="4.4.0" exclude="Build,Analyzers" />
+        <dependency id="MvvmCross.Plugin.Email" version="4.4.0" exclude="Build,Analyzers" />
+        <dependency id="MvvmCross.Plugin.File" version="4.4.0" exclude="Build,Analyzers" />
+        <dependency id="MvvmCross.Plugin.Visibility" version="4.4.0" exclude="Build,Analyzers" />
+        <dependency id="MvvmCross.Plugin.WebBrowser" version="4.4.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="9.0.1" exclude="Build,Analyzers" />
+        <dependency id="NofB.Org.Validation" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
